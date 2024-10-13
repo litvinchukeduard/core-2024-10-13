@@ -57,6 +57,8 @@ def print_folder(folder_path: str):
 # print("Hello!")
 # print(sys.argv)
 
+print(Fore.BLUE + "hello")
+
 if len(sys.argv) <= 1:
     print("No arguments")
 else:
@@ -67,5 +69,6 @@ else:
     # if first_argument == 'hello':
     #     print('Welcome!')
     folder_path = sys.argv[1]
+    
     print_folder(folder_path)
     # if folder_path 
